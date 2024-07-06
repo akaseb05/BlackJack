@@ -40,6 +40,11 @@ This is a command-line Blackjack game developed in C++. The game allows users to
 - If the player's balance reaches $0, it will automatically reset to $1000.
 - A special prize of a "Bitcoin" is awarded when the player's balance reaches $5000.
 
+## Save Progress
+- The game saves your balance to a file called `balance.txt`.
+- If you leave the game and come back later, your balance will be loaded from this file, allowing you to resume where you left off.
+- The balance is updated and saved at the end of each round.
+
 ## Example Output
 Welcome to Blackjack! You start with $1000.
 
