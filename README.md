@@ -15,24 +15,6 @@ This is a command-line Blackjack game developed in C++. The game allows users to
 - C++
 - Standard Library: `iostream`, `vector`, `cstdlib`, `ctime`, `fstream`
 
-## How to Play
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/akaseb05/BlackJack.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd blackjack-game
-    ```
-3. Compile the code:
-    ```sh
-    g++ -o blackjack blackjack.cpp
-    ```
-4. Run the game:
-    ```sh
-    ./blackjack
-    ```
-
 ## Game Rules
 - The game follows standard Blackjack rules.
 - The player starts with a balance of $1000.
